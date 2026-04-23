@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    background-image: url(https://files.123freevectors.com/wp-content/original/116568-abstract-dark-purple-blurred-bokeh-background.jpg);
+    
+}
+h1{
+    font-size: 35px;
+    padding: 30px ;
+    text-align: center;
+    color: white;
+}
+#card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   flex-wrap: wrap;
+  
+   
+
+}
+.box1{
+    background-color: lightpink;
+    border-radius: 10px;
+    width: 200px;
+    min-height: 70vh;
+    border: 2px solid white;
+    margin: 30px 30px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    box-shadow: 10px 10px 20px rgba(199, 21, 133, 0.1)
+}
+.box2{
+     background-color: lightpink;
+    border-radius: 10px;
+    width: 200px;
+    min-height: 70vh;
+    border: 2px solid white;
+    margin: 30px 30px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    box-shadow: 10px 10px 20px rgba(199, 21, 133, 0.1);
+
+}
+.box3{
+    background-color: lightpink;
+    border-radius: 10px;
+    width: 200px;
+    min-height: 70vh;
+    border: 2px solid white;
+    margin: 30px 30px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    box-shadow: 10px 10px 20px rgba(199, 21, 133, 0.1);
+}
+.box4{
+    background-color: lightpink;
+    border-radius: 10px;
+    width: 200px;
+    min-height: 70vh;
+    border: 2px solid white;
+    margin: 30px 30px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    box-shadow: 10px 10px 20px rgba(199, 21, 133, 0.1);
+}
+h3{
+    text-align: center;
+    margin: 5px;
+    font-weight: bold;
+
+}
+p{
+    text-align: center;
+    margin: 5px;
+    font-size: 18px;
+}
+p b{
+    font-size: 25px;
+}
+h4{
+    text-align: center;
+    font-size: 18px;
+}
+button{
+    border: 2px solid darkgoldenrod;
+    margin: 10px 60px;
+    padding: 10px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.box1:hover{
+    transform: scale(1.08) ;
+}
+.box2:hover{
+     transform: scale(1.08) ;
+}
+.box3:hover{
+     transform: scale(1.08) ;
+}
+.box4:hover{
+     transform: scale(1.08) ;
+}
+button:hover{
+    background-color: darkgoldenrod;
+
+}
+@media(max-width:600px) {
+
+ h1{
+    font-size: 28px;
+    color: white;
+ }   
+}
